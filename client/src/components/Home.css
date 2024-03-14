@@ -1,0 +1,48 @@
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.movie-table th, .movie-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.read-review-button, .write-review-button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.read-review-button > Link, .write-review-button > Link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.read-review-button > Link:hover, .write-review-button > Link:hover {
+    background-color: #0056b3;
+}
+.add-movie-link {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}

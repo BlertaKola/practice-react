@@ -1,0 +1,37 @@
+/* Reviews.css */
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+
+
+.red-button {
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.red-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
